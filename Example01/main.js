@@ -12,7 +12,6 @@ function Pokemon(nationalNo, hp, type, species, height, weight, abilities, local
         other.hp -= 20;
     };
 }
-
 var Fushigidane = new Pokemon(
     1,
     1200,
@@ -24,7 +23,6 @@ var Fushigidane = new Pokemon(
     [1, 226, 231, 80],
     "Fushigidane"
 );
-
 var Hitokage = new Pokemon(
     4,
     2000,
@@ -36,7 +34,6 @@ var Hitokage = new Pokemon(
     [4, 229, 234, 83],
     "Hitokage"
 );
-
 $(function () {
 
     function Render() {
